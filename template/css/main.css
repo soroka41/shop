@@ -1,0 +1,1224 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: "Century Gothic", sans-serif;
+    color: #696763;
+}
+
+body textarea{
+    resize: none;
+}
+
+/*********для прижатого футера*****************************/
+html, body{
+    height: 100%;
+}
+
+#wrapper{
+    min-height: 100%;
+}
+
+
+.appendix{
+    height: 45px;
+    clear: both;
+}
+/***********************************************************/
+body h2{
+    color: #fe980f;
+}
+
+body li{
+    list-style-type: none;
+}
+
+body a{
+    text-decoration: none;
+    color: #696763;
+}
+
+section, .header_middle, .header_bottom{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header_top, #footer{
+    height: 33px;
+    background: #F0F0E9;
+}
+
+
+#header{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header_top_nav_1{
+    width: 500px;
+    float: left;
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: 38px;
+}
+
+    .header_top_nav_1 a{
+        font: 12px "Century Gothic", sans-serif;
+    }
+
+        .header_top_nav_1 li{
+            display: inline-block;
+            margin-right: 25px;
+        }
+
+.header_top_nav_2{
+    width: 500px;
+    float: left;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+    .header_top_nav_2 li{
+        float: right;
+    }
+
+        .header_top_nav_2 li:first-child{
+            margin-left: 25px;
+        }
+
+.header_middle{
+    clear: both;
+    height: 79px;
+}
+
+    .header_middle_nav{
+        float: right;
+        margin-top: 27px;
+    }
+
+        .header_middle_nav li{
+            display: inline-block;
+            margin-right: 25px;
+        }
+
+            .header_middle_nav li:last-child{
+                margin-right: 0;
+            }
+
+                .header_middle_nav li a{
+                    font-size: 14px;
+                }
+
+                    .header_middle_nav li a:hover{
+                        color: #fe980f;
+                        -webkit-transition: 0.6s;
+                        -moz-transition: 0.6s;
+                        -o-transition: 0.6s;
+                        transition: 0.6s;
+                    }
+
+                        .header_middle_nav li a:not(:hover){
+                            -webkit-transition: 0.6s;
+                            -moz-transition: 0.6s;
+                            -o-transition: 0.6s;
+                            transition: 0.6s;
+                        }
+
+                            .logo{
+                                float: left;
+                                margin-top: 18px;
+                                margin-left: 36px;
+                            }
+
+.header_bottom{
+    clear: both;
+    padding: 0 0 25px;
+}
+
+    .header_bottom_nav{
+        margin: 0;
+        padding: 0;
+    }
+
+        .header_bottom_nav li{
+            display: inline-block;
+            margin-right: 25px;
+        }
+
+            .header_bottom_nav li a{
+                font-size: 17px;
+                font-family: "Century Gothic", sans-serif;
+            }
+
+                .header_bottom_nav li a:hover{
+                    color: #fe980f;
+                    -webkit-transition: 0.6s;
+                    -moz-transition: 0.6s;
+                    -o-transition: 0.6s;
+                    transition: 0.6s;
+                }
+
+                    .header_bottom_nav li a:not(:hover){
+                        -webkit-transition: 0.6s;
+                        -moz-transition: 0.6s;
+                        -o-transition: 0.6s;
+                        transition: 0.6s;
+                    }
+
+.container .sidebar{
+    width: 275px;
+    float: left;
+}
+
+.container .content{
+    float: left;
+    width: 925px;
+}
+
+    .container .content .item{
+        border: 1px solid #dadad8;
+        float: left;
+        margin-bottom: 28px;
+        margin-right: 28px;
+        width: 268px;
+        height: 422px;
+        position: relative;
+        z-index: 1;
+    }
+
+        .new{
+            position: absolute;
+            z-index: 2;
+        }
+
+                        .features_items h2{
+                            width: 235px;
+                            margin: 0 auto 30px;
+                        }
+
+                            .item_price{
+                                font-weight: bold;
+                                font-size: 22px;
+                                color: #fe980f;
+                                text-align: center;
+                                margin-top: 10px;
+                                margin-bottom: 5px;
+                            }
+
+                                .item_name{
+                                    font-size: 14px;
+                                    text-align: center;
+                                    margin-bottom: 15px;
+                                    margin-top: 10px;
+                                    word-wrap: break-word;
+                                }
+
+                                    .to_cart{
+                                        display: block;
+                                        padding: 6px 14px;
+                                        width: 83px;
+                                        background: #efefe8;
+                                        margin: 0 auto;
+                                        font-weight: bold;
+                                    }
+
+                                        .to_cart:hover{
+                                            color: #fff;
+                                            background: #fe980f;
+                                            -webkit-transition: 0.6s;
+                                            -moz-transition: 0.6s;
+                                            -o-transition: 0.6s;
+                                            transition: 0.6s;
+                                        }
+
+                                            .to_cart:not(:hover){
+                                                -webkit-transition: 0.6s;
+                                                -moz-transition: 0.6s;
+                                                -o-transition: 0.6s;
+                                                transition: 0.6s;
+                                            }
+
+#footer{
+    height: 35px!important;
+    margin-top: -35px!important;
+    clear: both;
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 13px solid #F0F0E9;
+}
+
+#copy{
+    width: 96px;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+
+.left_sidebar li a:hover{
+    color: #fe980f;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+
+    .left_sidebar li a:not(:hover){
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+
+        .left_sidebar li{
+            margin-bottom: 11px;
+        }
+
+            .left_sidebar li:last-child{
+                margin-bottom: 0;
+            }
+
+            /*CSS для страницы single_product*/
+
+.product_info{
+    height: 436px;
+}
+
+.single_product_details_main{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin-right: 25px;
+    float: right;
+
+}
+
+.single_product_img{
+    width: 266px;
+    margin-right: 124px;
+    float: left;
+    border: 1px solid #dadad8;
+}
+
+.single_product_details{
+    float: left;
+    border: 1px solid #dadad8;
+    padding: 4px;
+    width: 513px;
+}
+
+    .single_product_details h2{
+        width: 215px;
+        color: #363432;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: -6px;
+        width: 400px;
+    }
+
+        .single_product_details p.code{
+            font-size: 14px;
+            margin-bottom: 34px;
+        }
+
+            .single_product_details .item_price{
+                float: left;
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+#input_div{
+    clear: both;
+    margin-bottom: 26px;
+}
+
+    #input_div label{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+        #input_div input{
+            width: 32px;
+            height: 28px;
+            text-align: center;
+            font: bold 20px "Century Gothic", sans-serif;
+            color: #696763;
+            border: 1px solid #DEDEDC;
+        }
+
+            #input_div .to_cart{
+                border: none;
+                margin-left: 0;
+                margin-right: 40px;
+                padding: 11px 22px;
+            }
+
+                .single_product_details_main p{
+                    font-size: 14px;
+                    margin-bottom: -10px;
+                }
+
+
+.product_description p{
+    word-wrap: break-word;
+    font-size: 13px;
+}
+
+.product_description{
+    margin-bottom: 80px;
+}
+
+                        /*CSS для страницы catalog*/
+.active{
+    color: #fe980f;
+}
+
+                    /*CSS для страницы регистрации*/
+
+#registration_form{
+    margin: 0 auto;
+    width: 277px;
+}
+
+    #registration_form input{
+        width: 265px;
+        height: 35px;
+        margin-bottom: 20px;
+        background: #CCCCCC;
+        border: none;
+        font: 14px "Century Gothic", sans-serif;
+        padding-left: 5px;
+    }
+
+        #registration_form #reg_btn{
+            width: 273px;
+            color: #333333;
+            background: #fe980f;
+            -wekit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+            #registration_form #reg_btn:hover{
+                background: #EBEBEB;
+                cursor: pointer;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+                #registration_form #reg_btn:not(:hover){
+                    -webkit-transition: 0.6s;
+                    -moz-transition: 0.6s;
+                    -o-transition: 0.6s;
+                    transition: 0.6s;
+                }
+
+#reg_thanks{
+    width: 552px;
+    margin: 150px auto 0;
+    color: #fe980f;
+    font: bold 40px "Century Gothic", sans-serif;
+}
+
+    #reg_main{
+        font: bold 30px "Century Gothic", sans-serif;
+        margin: 25px auto;
+        color: #fe980f;
+        width: 355px;
+    }
+
+        #reg_main a{
+            font: 30px "Century Gothic", sans-serif;
+        }
+
+            #reg_main a:hover{
+                color: #cacaca;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+                #reg_main a:not(:hover){
+                    -webkit-transition: 0.6s;
+                    -moz-transition: 0.6s;
+                    -o-transition: 0.6s;
+                    transition: 0.6s;
+                }
+
+.errors li{
+    color: #FF5555 !important;
+}
+
+.errors{
+    width: 382px;
+    margin-top: 107px;
+    float: left;
+}
+
+
+                        /*CSS для страницы входа*/
+
+#enter_form{
+    margin: 0 auto;
+    width: 277px;
+}
+
+    #enter_form input{
+        width: 265px;
+        height: 35px;
+        margin-bottom: 20px;
+        background: #CCCCCC;
+        border: none;
+        font: 14px "Century Gothic", sans-serif;
+        padding-left: 5px;
+    }
+
+        #enter_form #enter_btn{
+            width: 273px;
+            color: #333333;
+            background: #fe980f;
+            -wekit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+            #enter_form #enter_btn:hover{
+                background: #EBEBEB;
+                cursor: pointer;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+                #enter_form #enter_btn:not(:hover){
+                    -webkit-transition: 0.6s;
+                    -moz-transition: 0.6s;
+                    -o-transition: 0.6s;
+                    transition: 0.6s;
+                }
+
+                    /*CSS для страницы личного кабинета*/
+
+#cabinet_greeting{
+    font: bold 20px "Century Gothic", sans-serif;
+}
+
+#cabinet_list{
+    margin-top: 20px;
+    width: 340px;
+}
+
+    #cabinet_list li{
+        margin-bottom: 10px;
+    }
+
+        #cabinet_list li a:hover{
+            color: #fe980f;
+            -webkit-transition: 0.6s;
+            -moz-transition: 0.6s;
+            -o-transition: 0.6s;
+            transition: 0.6s;
+        }
+
+            #cabinet_list li a:not(:hover){
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+#edit_form{
+    margin: 0 auto;
+    width: 320px;
+}
+
+    #edit_form input{
+        width: 265px;
+        height: 35px;
+        margin-bottom: 20px;
+        background: #CCCCCC;
+        border: none;
+        font: 14px "Century Gothic", sans-serif;
+        padding-left: 5px;
+    }
+
+        #edit_form #save_btn{
+            width: 273px;
+            color: #333333;
+            background: #fe980f;
+            -wekit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+            #edit_form #save_btn:hover{
+                background: #EBEBEB;
+                cursor: pointer;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+                #edit_form #save_btn:not(:hover){
+                    -webkit-transition: 0.6s;
+                    -moz-transition: 0.6s;
+                    -o-transition: 0.6s;
+                    transition: 0.6s;
+                }
+
+                    #edit_form p{
+                        margin: 0;
+                        font-weight: bold;
+                    }
+
+#edit_thanks{
+    width: 585px;
+    margin: 150px auto 0;
+    color: #fe980f;
+    font: bold 40px "Century Gothic", sans-serif;
+}
+
+    #to_cabinet{
+        font: bold 30px "Century Gothic", sans-serif;
+        margin: 25px auto;
+        color: #fe980f;
+        width: 355px;
+    }
+
+        #to_cabinet a{
+            font: 30px "Century Gothic", sans-serif;
+        }
+
+            #to_cabinet a:hover{
+                color: #cacaca;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+                #to_cabinet a:not(:hover){
+                    -webkit-transition: 0.6s;
+                    -moz-transition: 0.6s;
+                    -o-transition: 0.6s;
+                    transition: 0.6s;
+                }
+
+
+                /*CSS для страницы корзина*/
+
+#cart_content h2{
+    margin: 5px auto 20px;
+    width: 110px;
+
+}
+
+    #cart_content p{
+        margin-bottom: 21px;
+    }
+
+#cart_products{
+    border: 1px solid #DDDDDD;
+    width: 915px;
+    table-layout: fixed;
+}
+
+    #cart_products tr:nth-child(odd){
+        background-color: #efefe8;
+    }
+
+        #cart_products th:nth-child(2){
+            width: 406px;
+        }
+
+            #cart_products th:last-child{
+                width: 84px;
+            }
+
+                #cart_products tr{
+                    height: 43px;
+                }
+
+                    #cart_products td{
+                        border-left: 1px solid #DDDDDD;
+                        padding-left: 6px;
+                        word-wrap: break-word;
+                    }
+
+                        #cart_products td:first-child{
+                            border-left: none;
+                        }
+
+                            #cart_products th{
+                                border-left: 1px solid #DDDDDD;
+                            }
+
+                                #cart_products th:first-child{
+                                    border-left: none;
+                                    width: 210px;
+                                }
+
+#total_sum td{
+    border-left: none;
+}
+
+    #total_sum td:last-child{
+        border-left: 1px solid #DDDDDD;
+    }
+
+        #total_sum td:first-child, #total_sum td:last-child{
+            font-weight: bold;
+        }
+
+#empty_cart{
+    width: auto!important;
+    margin-top: 25px!important;
+}
+
+    #empty_cart_to_main{
+        font-weight: bold;
+    }
+
+        #empty_cart_to_main:hover{
+            color: #fe980f;
+            -webkit-transition: 0.6s;
+            -moz-transition: 0.6s;
+            -o-transition: 0.6s;
+            transition: 0.6s;
+        }
+
+            #empty_cart_to_main:not(:hover){
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+.checkout{
+    display: block;
+    padding: 6px 14px;
+    width: 141px;
+    background: #fe980f;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 30px 0 100px 0;
+}
+
+    .checkout:hover{
+        background: #efefe8;
+        color: #696763;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+
+        .checkout:not(:hover){
+            -webkit-transition: 0.6s;
+            -moz-transition: 0.6s;
+            -o-transition: 0.6s;
+            transition: 0.6s;
+        }
+
+.del{
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: 3px;
+}
+
+.cart_item:hover{
+    color: #fe980f;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+
+    .cart_item:not(:hover){
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+
+                    /*CSS для страницы оформления заказа*/
+
+#cart_checkout h2{
+    margin: 5px auto 20px;
+    width: 110px;
+
+}
+
+#checkout_form{
+    margin: 0 0 50px 100px;
+    width: 277px;
+}
+
+#checkout_form textarea{
+    width: 265px;
+    margin-bottom: 20px;
+    background: #CCCCCC;
+    border: none;
+    font: 14px "Century Gothic", sans-serif;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+#checkout_form input{
+    width: 265px;
+    height: 35px;
+    margin-bottom: 20px;
+    background: #CCCCCC;
+    border: none;
+    font: 14px "Century Gothic", sans-serif;
+    padding-left: 5px;
+}
+
+#checkout_form #check_btn{
+    width: 273px;
+    color: #333333;
+    background: #fe980f;
+    -wekit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+#checkout_form #check_btn:hover{
+    background: #EBEBEB;
+    cursor: pointer;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+
+#checkout_form #check_btn:not(:hover){
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+}
+
+#error_checkout{
+    float: right;
+}
+
+                            /*CSS для админки*/
+
+#header_admin{
+    height: 50px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container_admin{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+    #admin_main, #admin_to_main{
+        display: block;
+    }
+    
+     #admin_main{
+         float: left;
+         margin: 15px 0 0 25px;
+     }
+     
+          #admin_to_main{
+              float: right;
+              margin: 15px 25px 0 0 ;
+          }
+
+            #admin_main:hover{
+                color: #fe980f;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+                #admin_main:not(:hover){
+                    -webkit-transition: 0.6s;
+                    -moz-transition: 0.6s;
+                    -o-transition: 0.6s;
+                    transition: 0.6s;
+                }
+
+                    #admin_to_main:hover{
+                        color: #fe980f;
+                        -webkit-transition: 0.6s;
+                        -moz-transition: 0.6s;
+                        -o-transition: 0.6s;
+                        transition: 0.6s;
+                    }
+
+                        #admin_to_main:not(:hover){
+                            -webkit-transition: 0.6s;
+                            -moz-transition: 0.6s;
+                            -o-transition: 0.6s;
+                            transition: 0.6s;
+                        }
+
+.container_admin h4, .container_admin p{
+    color: #fe980f;
+    margin-left: 25px;
+}
+
+.container_admin ul li{
+    margin-bottom: 10px;
+}
+
+    .container_admin ul li a:hover{
+        color: #fe980f;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+
+        .container_admin ul li a:not(:hover){
+            -webkit-transition: 0.6s;
+            -moz-transition: 0.6s;
+            -o-transition: 0.6s;
+            transition: 0.6s;
+        }
+
+
+        /*CSS для страницы товаров*/
+
+#admin_product_list{
+    width: 1196px;
+    margin-top: 32px;
+}
+
+    #admin_product_list td{
+        padding-left: 2px;
+    }
+
+        #admin_product_list th{
+            text-align: left;
+        }
+
+            #admin_product_list tr{
+                height: 38px;
+                font-size: 15px;
+            }
+
+                #admin_product_list tr:first-child{
+                    font-size: 17px;
+                }
+
+                    #admin_list_h4{
+                        margin-left: 0;
+                    }
+
+.add_item{
+    display: block;
+    padding: 6px 14px;
+    width: 134px;
+    background: #efefe8;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+    .add_item:hover{
+        color: #fff;
+        background: #fe980f;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+
+            .add_item:not(:hover){
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+.container_admin_del h4, .container_admin_del p{
+    color: #696763;
+}
+
+.container_admin_del{
+    margin-left: 25px;
+}
+
+.container_admin_del input{
+    background: #efefe8;
+    border: none;
+    color: #696763;
+    width: 95px;
+    height: 36px;
+    font-size: 15px;
+}
+
+    .container_admin_del input:hover{
+        cursor: pointer;
+        color: #fff;
+        background: #fe980f;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+
+        .container_admin_del input:not(:hover){
+            -webkit-transition: 0.6s;
+            -moz-transition: 0.6s;
+            -o-transition: 0.6s;
+            transition: 0.6s;
+        }
+
+        /*CSS для страницы добавления товара*/
+
+#add_form{
+    width: 300px;
+    margin-top: 45px;
+}
+
+    #add_form input{
+        width: 265px;
+        height: 35px;
+        margin-bottom: 20px;
+        background: #CCCCCC;
+        border: none;
+        font: 14px "Century Gothic", sans-serif;
+        padding-left: 5px;
+    }
+
+        #add_form #add_btn{
+            width: 273px;
+            color: #333333;
+            background: #fe980f;
+            -wekit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            -o-border-radius: 4px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+            #add_form #add_btn:hover{
+                background: #EBEBEB;
+                cursor: pointer;
+                -webkit-transition: 0.6s;
+                -moz-transition: 0.6s;
+                -o-transition: 0.6s;
+                transition: 0.6s;
+            }
+
+                #add_form #add_btn:not(:hover){
+                    -webkit-transition: 0.6s;
+                    -moz-transition: 0.6s;
+                    -o-transition: 0.6s;
+                    transition: 0.6s;
+                }
+
+                    #add_form p{
+                        margin: 0 0 5px 0;
+                    }
+
+                        #add_form select{
+                            width: 270px;
+                            height: 35px;
+                            margin-bottom: 20px;
+                            background: #CCCCCC;
+                            border: none;
+                            font: 14px "Century Gothic", sans-serif;
+                            padding-left: 5px;
+                        }
+#add_description{
+    width: 263px;
+    margin-bottom: 20px;
+    background: #CCCCCC;
+    border: none;
+    font: 14px "Century Gothic", sans-serif;
+    padding-left: 5px;
+}
+
+                /*CSS для страницы категорий admin*/
+
+.add_cat{
+    display: block;
+    padding: 6px 14px;
+    width: 178px;
+    background: #efefe8;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+    .add_cat:hover{
+        color: #fff;
+        background: #fe980f;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        -o-transition: 0.6s;
+        transition: 0.6s;
+    }
+
+        .add_cat:not(:hover){
+            -webkit-transition: 0.6s;
+            -moz-transition: 0.6s;
+            -o-transition: 0.6s;
+            transition: 0.6s;
+        }
+
+
+        /*CSS для страницы просмотра заказа*/
+
+#admin_order_show{
+    table-layout: fixed;
+    width: 448px;
+}
+
+    #admin_order_show td{
+        padding-left: 2px;
+        word-wrap: break-word;
+        width: 150px;
+    }
+
+        #admin_order_show th{
+            text-align: left;
+        }
+
+            #admin_order_show tr{
+                height: 38px;
+                font-size: 15px;
+            }
+
+                #admin_order_show tr:first-child{
+                    font-size: 17px;
+                }
+
+.container_admin_order_info h3{
+    color: #fe980f;
+    margin: 50px 0 20px 0;
+}
+
+ #admin__order_product_list{
+     table-layout: fixed;
+     width: 100%;
+     margin-bottom: 50px;
+ }
+
+    #admin__order_product_list td{
+        padding-left: 2px;
+    }
+
+        #admin__order_product_list th{
+            text-align: left;
+        }
+
+            #admin__order_product_list tr{
+                height: 38px;
+                font-size: 15px;
+            }
+
+                #admin__order_product_list tr:first-child{
+                    font-size: 17px;
+                }
+
+                    #admin__order_product_list td:nth-child(3){
+                        width: 400px;
+                    }
+
+                        #admin__order_product_list th:nth-child(3){
+                            width: 400px;
+                        }
+
+                            #admin__order_product_list td:last-child{
+                                text-align: center;
+                            }
+
+                                #admin__order_product_list td:last-child, #admin__order_product_list th:last-child{
+                                    width: 113px;
+                                }
+
+                /*CSS для пагинации*/
+.pagination{
+    clear: both;
+    width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+.pagination li a{
+    display: block;
+    width: 25px;
+    text-align: center;
+    color: #fe980f;
+}
+
+.active a{
+    background: #fe980f!important;
+    color: #FFFFFF!important;
+}
+
+.pagination li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+            /*CSS для страницы просмотра заказов в личном кабинете*/
+#user_order_list{
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 50px;
+}
+
+    #user_order_list td{
+        text-align: center;
+        padding-top: 34px;
+        padding-bottom: 20px;
+        border-right: 1px solid #DDDDDD;
+        border-bottom: 1px solid #DDDDDD;
+    }
+
+    #user_order_list td:last-child{
+        border-right: none;
+    }
+
+        #user_order_list span{
+            font-weight: bold;
+        }
+
+            #user_order_list span{
+                color: #fe980f;
+                margin-left: 15px;
+            }
+
+.total_price{
+    height: 60px;
+    vertical-align: top;
+    background: none!important;
+}
+
+    .total_price td{
+        text-align: right!important;
+        border-bottom: 1px solid #DDDDDD;
+        vertical-align: middle;
+    }
+
+#user_order_list tr:nth-child(odd){
+    background-color: #efefe8;
+}
+
+.total_price span{
+    margin-right: 25px;
+    color: #fe980f;
+    margin-top: 25px;
+}
